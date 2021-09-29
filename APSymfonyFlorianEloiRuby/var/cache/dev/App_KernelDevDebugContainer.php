@@ -16,6 +16,6 @@ if (!\class_exists(App_KernelDevDebugContainer::class, false)) {
 
 return new \Container8lgGriX\App_KernelDevDebugContainer([
     'container.build_hash' => '8lgGriX',
-    'container.build_id' => 'cbfa21e1',
-    'container.build_time' => 1632921464,
+    'container.build_id' => 'c35dddf2',
+    'container.build_time' => 1632922029,
 ], __DIR__.\DIRECTORY_SEPARATOR.'Container8lgGriX');

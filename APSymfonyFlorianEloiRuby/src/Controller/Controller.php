@@ -17,4 +17,14 @@ class Controller extends AbstractController
             'controller_name' => 'Controller',
         ]);
     }
+
+    /**
+     * @Route("/contact", name="contact")
+     */
+    public function contact(): Response
+    {
+        return $this->render('/contact.html.twig', [
+            'controller_name' => 'Controller',
+        ]);
+    }
 }
