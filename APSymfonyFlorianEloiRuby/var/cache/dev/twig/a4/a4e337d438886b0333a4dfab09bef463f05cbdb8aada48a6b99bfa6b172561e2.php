@@ -76,7 +76,7 @@ class __TwigTemplate_b373f47e06233d360225e76c8b3619af9f30eecc591e9e21badc15f31ec
 </style>
 
 <div class=\"example-wrapper\">
-    <h1>Hello ";
+    <h1>Hellorefd ";
         // line 12
         echo twig_escape_filter($this->env, (isset($context["controller_name"]) || array_key_exists("controller_name", $context) ? $context["controller_name"] : (function () { throw new RuntimeError('Variable "controller_name" does not exist.', 12, $this->source); })()), "html", null, true);
         echo "! ✅</h1>
@@ -127,7 +127,7 @@ class __TwigTemplate_b373f47e06233d360225e76c8b3619af9f30eecc591e9e21badc15f31ec
 </style>
 
 <div class=\"example-wrapper\">
-    <h1>Hello {{ controller_name }}! ✅</h1>
+    <h1>Hellorefd {{ controller_name }}! ✅</h1>
 
     This friendly message is coming from:
     <ul>
@@ -136,6 +136,6 @@ class __TwigTemplate_b373f47e06233d360225e76c8b3619af9f30eecc591e9e21badc15f31ec
     </ul>
 </div>
 {% endblock %}
-", "/index.html.twig", "C:\\Users\\castellf\\Desktop\\AP SYMFONY\\APSymfonyFlorianEloiRuby\\templates\\index.html.twig");
+", "/index.html.twig", "C:\\Users\\rabece\\Desktop\\AP-SYMFONY-GIT\\APSymfonyFlorianEloiRuby\\templates\\index.html.twig");
     }
 }
