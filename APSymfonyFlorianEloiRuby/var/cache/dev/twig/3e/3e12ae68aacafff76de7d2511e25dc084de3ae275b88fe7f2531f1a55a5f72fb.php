@@ -78,9 +78,9 @@ class __TwigTemplate_6aa6d852b10893e025990720b227267feb53ff338ab809e9434f303c28b
 <div class=\"example-wrapper\">
     <h1>Contact ✅</h1>
 
-    This friendly message is coming from:
+    
     <ul>
-        Eloi!
+        N'hésitez pas à nous contacter via l'adresse e-mail suivante : eloi.rabec@gmail.com
     </ul>
 </div>
 ";
@@ -119,9 +119,9 @@ class __TwigTemplate_6aa6d852b10893e025990720b227267feb53ff338ab809e9434f303c28b
 <div class=\"example-wrapper\">
     <h1>Contact ✅</h1>
 
-    This friendly message is coming from:
+    
     <ul>
-        Eloi!
+        N'hésitez pas à nous contacter via l'adresse e-mail suivante : eloi.rabec@gmail.com
     </ul>
 </div>
 {% endblock %}
