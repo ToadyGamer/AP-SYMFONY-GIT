@@ -6,6 +6,8 @@ use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 use Symfony\Component\HttpFoundation\Response;
 use Symfony\Component\Routing\Annotation\Route;
 
+use App\Entity\Exemple;
+
 class Controller extends AbstractController
 {
     /**
@@ -22,8 +24,10 @@ class Controller extends AbstractController
      */
     public function exemple(): Response
     {
+        $Data = $this->getDoctrine()->getRepository(Exemple::class)->findAll();
         return $this->render('/exemple.html.twig', [
             'controller_name' => 'Controller',
+            'Data'=>$Data,
         ]);
     }
 }

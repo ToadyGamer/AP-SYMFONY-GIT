@@ -64,6 +64,15 @@
             'reference' => 'a036d90c303f3163b5be8b8fde9b6755b2be4a3a',
             'dev_requirement' => false,
         ),
+        'doctrine/data-fixtures' => array(
+            'pretty_version' => '1.5.0',
+            'version' => '1.5.0.0',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../doctrine/data-fixtures',
+            'aliases' => array(),
+            'reference' => '51d3d4880d28951fff42a635a2389f8c63baddc5',
+            'dev_requirement' => false,
+        ),
         'doctrine/dbal' => array(
             'pretty_version' => '2.13.3',
             'version' => '2.13.3.0',
@@ -89,6 +98,15 @@
             'install_path' => __DIR__ . '/../doctrine/doctrine-bundle',
             'aliases' => array(),
             'reference' => '4202ce675d29e70a8b9ee763bec021b6f44caccb',
+            'dev_requirement' => false,
+        ),
+        'doctrine/doctrine-fixtures-bundle' => array(
+            'pretty_version' => '3.4.0',
+            'version' => '3.4.0.0',
+            'type' => 'symfony-bundle',
+            'install_path' => __DIR__ . '/../doctrine/doctrine-fixtures-bundle',
+            'aliases' => array(),
+            'reference' => '870189619a7770f468ffb0b80925302e065a3b34',
             'dev_requirement' => false,
         ),
         'doctrine/doctrine-migrations-bundle' => array(
