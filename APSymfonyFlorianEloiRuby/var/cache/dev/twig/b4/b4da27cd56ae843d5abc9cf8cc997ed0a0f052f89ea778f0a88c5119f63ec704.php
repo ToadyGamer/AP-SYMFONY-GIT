@@ -75,7 +75,7 @@ class __TwigTemplate_3e3b42f31cdc9896733944675ade14782c56509979c2ce653b1d7f7c858
                 <img src=\"Imgs/IconeGrass.png\" style=\"width:50px\">
                 </li>
                 <li class=\"nav-item\">
-                <a class=\"nav-link\" href=\"\"><h3 style=\"color:white; font-weight: bold;\" onmouseover=\"this.style.color='green'\" onmouseout=\"this.style.color='white'\">ACCUEIL</h3></a>
+                <a class=\"nav-link\" href=\"/\"><h3 style=\"color:white; font-weight: bold;\" onmouseover=\"this.style.color='green'\" onmouseout=\"this.style.color='white'\">ACCUEIL</h3></a>
                 </li>
                 <li class=\"nav-item\">
                 <a class=\"nav-link\" href=\"/presentation\"><h3 style=\"color:white; font-weight: bold;\" onmouseover=\"this.style.color='green'\" onmouseout=\"this.style.color='white'\">PRESENTATION</h3></a>
@@ -85,7 +85,7 @@ class __TwigTemplate_3e3b42f31cdc9896733944675ade14782c56509979c2ce653b1d7f7c858
                 <a class=\"nav-link\" href=\"/exemple\"><h3 style=\"color:white; font-weight: bold;\" onmouseover=\"this.style.color='green'\" onmouseout=\"this.style.color='white'\">EXEMPLE DE PROJET</h3></a>
                 </li>
                 <li class=\"nav-item\">
-                <a class=\"nav-link\" href=\"/prestation\"><h3 style=\"color:white; font-weight: bold;\" onmouseover=\"this.style.color='green'\" onmouseout=\"this.style.color='white'\">PRESTATION</h3></a>
+                <a class=\"nav-link\" href=\"/prestations\"><h3 style=\"color:white; font-weight: bold;\" onmouseover=\"this.style.color='green'\" onmouseout=\"this.style.color='white'\">PRESTATIONS</h3></a>
                 </li>
                 <li class=\"nav-item\">
                 <a class=\"nav-link\" href=\"/avis\"><h3 style=\"color:white; font-weight: bold;\" onmouseover=\"this.style.color='green'\" onmouseout=\"this.style.color='white'\">AVIS</h3></a>
@@ -211,7 +211,7 @@ class __TwigTemplate_3e3b42f31cdc9896733944675ade14782c56509979c2ce653b1d7f7c858
                 <img src=\"Imgs/IconeGrass.png\" style=\"width:50px\">
                 </li>
                 <li class=\"nav-item\">
-                <a class=\"nav-link\" href=\"\"><h3 style=\"color:white; font-weight: bold;\" onmouseover=\"this.style.color='green'\" onmouseout=\"this.style.color='white'\">ACCUEIL</h3></a>
+                <a class=\"nav-link\" href=\"/\"><h3 style=\"color:white; font-weight: bold;\" onmouseover=\"this.style.color='green'\" onmouseout=\"this.style.color='white'\">ACCUEIL</h3></a>
                 </li>
                 <li class=\"nav-item\">
                 <a class=\"nav-link\" href=\"/presentation\"><h3 style=\"color:white; font-weight: bold;\" onmouseover=\"this.style.color='green'\" onmouseout=\"this.style.color='white'\">PRESENTATION</h3></a>
@@ -221,7 +221,7 @@ class __TwigTemplate_3e3b42f31cdc9896733944675ade14782c56509979c2ce653b1d7f7c858
                 <a class=\"nav-link\" href=\"/exemple\"><h3 style=\"color:white; font-weight: bold;\" onmouseover=\"this.style.color='green'\" onmouseout=\"this.style.color='white'\">EXEMPLE DE PROJET</h3></a>
                 </li>
                 <li class=\"nav-item\">
-                <a class=\"nav-link\" href=\"/prestation\"><h3 style=\"color:white; font-weight: bold;\" onmouseover=\"this.style.color='green'\" onmouseout=\"this.style.color='white'\">PRESTATION</h3></a>
+                <a class=\"nav-link\" href=\"/prestations\"><h3 style=\"color:white; font-weight: bold;\" onmouseover=\"this.style.color='green'\" onmouseout=\"this.style.color='white'\">PRESTATIONS</h3></a>
                 </li>
                 <li class=\"nav-item\">
                 <a class=\"nav-link\" href=\"/avis\"><h3 style=\"color:white; font-weight: bold;\" onmouseover=\"this.style.color='green'\" onmouseout=\"this.style.color='white'\">AVIS</h3></a>

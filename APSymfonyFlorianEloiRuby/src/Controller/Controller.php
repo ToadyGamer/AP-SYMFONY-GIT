@@ -27,4 +27,14 @@ class Controller extends AbstractController
             'controller_name' => 'Controller',
         ]);
     }
+
+    /**
+     * @Route("/prestations", name="prestations")
+     */
+    public function prestations(): Response
+    {
+        return $this->render('/prestations.html.twig', [
+            'controller_name' => 'Controller',
+        ]);
+    }
 }

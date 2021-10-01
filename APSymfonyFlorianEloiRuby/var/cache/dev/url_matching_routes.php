@@ -10,6 +10,7 @@ return [
     [ // $staticRoutes
         '/' => [[['_route' => '', '_controller' => 'App\\Controller\\Controller::index'], null, null, null, false, false, null]],
         '/contact' => [[['_route' => 'contact', '_controller' => 'App\\Controller\\Controller::contact'], null, null, null, false, false, null]],
+        '/prestations' => [[['_route' => 'prestations', '_controller' => 'App\\Controller\\Controller::prestations'], null, null, null, false, false, null]],
     ],
     [ // $regexpList
         0 => '{^(?'
