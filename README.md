@@ -1,4 +1,4 @@
-<p align="center" style="width:50px">🖥 SYMFONY 🖥</p>
+<h1 align="center">🖥 SYMFONY 🖥</h1>
 
 ## 📃 PRESENTATION 📃
 L'ap n°1 consistait à utiliser symfony pour créer un site internet par groupe de 3 avec un theme spécifique (paysagiste). De plus, ils nous fallaient communiquer avec une base de donnée elle même créer avec symfony.
