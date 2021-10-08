@@ -2,6 +2,8 @@
 
 namespace App\Controller;
 
+use Symfony\Component\Mailer\MailerInterface;
+use Symfony\Component\Mime\Email;
 use Symfony\Component\Form\Extension\Core\Type\TextareaType;
 use App\Entity\Contact;
 use Symfony\Component\Form\Extension\Core\Type\SubmitType;
@@ -9,6 +11,9 @@ use Symfony\Component\Form\Extension\Core\Type\TextType;
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 use Symfony\Component\HttpFoundation\Response;
 use Symfony\Component\Routing\Annotation\Route;
+use Symfony\Component\HttpFoundation\Request;
+
+
 
 class Controller extends AbstractController
 {
@@ -25,7 +30,7 @@ class Controller extends AbstractController
     /**
      * @Route("/contact", name="contact")
      */
-    public function contact(): Response
+    public function contact(Request $request): Response
     {
         //crée form
         $contact = new Contact();
@@ -33,7 +38,16 @@ class Controller extends AbstractController
             ->add('nomContact', TextType::class, array("label" => "Nom :"))
             ->add('prenomContact', TextType::class, array("label" => "Prénom :"))
             ->add('mailContact', TextType::class, array("label" => "Votre e-mail :"))
-            ->add('messageContact', TextareaType::class, array("label" => "L'e-mail que vous souhaitez nous envoyer :"))->getForm();
+            ->add('messageContact', TextareaType::class, array("label" => "L'e-mail que vous souhaitez nous envoyer :"))
+            ->add('test_bouton', SubmitType::class)
+            ->getForm();
+
+        $form->submit($request->request->get($form->getName()));
+        if($form->isSubmitted() && $form->isValid())
+        {
+            $contact=$form->getData();
+        }
+
 
         return $this->render('/contact.html.twig', [
             'controller_name' => 'Controller',

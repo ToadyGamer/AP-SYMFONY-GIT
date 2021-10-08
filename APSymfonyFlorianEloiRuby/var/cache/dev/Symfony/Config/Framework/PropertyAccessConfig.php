@@ -22,7 +22,7 @@ class PropertyAccessConfig
     private $throwExceptionOnInvalidPropertyPath;
     
     /**
-     * @default false
+     * @default true
      * @param ParamConfigurator|bool $value
      * @return $this
      */
