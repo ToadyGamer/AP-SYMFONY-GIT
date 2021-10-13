@@ -40,7 +40,7 @@ class Controller extends AbstractController
             ->add('prenomContact', TextType::class, array("label" => "Prénom :"))
             ->add('mailContact', TextType::class, array("label" => "Votre e-mail :"))
             ->add('messageContact', TextareaType::class, array("label" => "L'e-mail que vous souhaitez nous envoyer :"))
-            ->add('test_bouton', SubmitType::class)
+            ->add('Envoyer', SubmitType::class)
             ->getForm();
         $form->handleRequest($request);
 
@@ -58,13 +58,5 @@ class Controller extends AbstractController
         ]);
     }
 
-    /**
-     * @Route("/prestations", name="prestations")
-     */
-    public function prestations(): Response
-    {
-        return $this->render('/prestations.html.twig', [
-            'controller_name' => 'Controller',
-        ]);
-    }
+   
 }
