@@ -16,15 +16,28 @@ use Doctrine\ORM\EntityManagerInterface;
 
 
 
+use App\Entity\Exemple;
+
 class Controller extends AbstractController
 {
     /**
-     * @Route("/", name="")
+     * @Route("/presentation", name="presentation")
      */
-    public function index(): Response
+    public function presentation(): Response
     {
-        return $this->render('/index.html.twig', [
+        return $this->render('/presentation.html.twig', [
             'controller_name' => 'Controller',
+        ]);
+    }
+        /**
+     * @Route("/exemple", name="exemple")
+     */
+    public function exemple(): Response
+    {
+        $Data = $this->getDoctrine()->getRepository(Exemple::class)->findAll();
+        return $this->render('/exemple.html.twig', [
+            'controller_name' => 'Controller',
+            'Data'=>$Data,
         ]);
     }
 

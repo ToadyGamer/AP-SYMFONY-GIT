@@ -24,7 +24,11 @@
         "version": "3.1.2"
     },
     "doctrine/data-fixtures": {
+<<<<<<< HEAD
         "version": "1.5.1"
+=======
+        "version": "1.5.0"
+>>>>>>> Exemple
     },
     "doctrine/dbal": {
         "version": "2.13.3"
@@ -97,9 +101,12 @@
     "doctrine/sql-formatter": {
         "version": "1.1.1"
     },
+<<<<<<< HEAD
     "egulias/email-validator": {
         "version": "3.1.1"
     },
+=======
+>>>>>>> Exemple
     "friendsofphp/proxy-manager-lts": {
         "version": "v1.0.5"
     },
@@ -281,12 +288,15 @@
     "symfony/polyfill-php81": {
         "version": "v1.23.0"
     },
+<<<<<<< HEAD
     "symfony/property-access": {
         "version": "v5.3.8"
     },
     "symfony/property-info": {
         "version": "v5.3.8"
     },
+=======
+>>>>>>> Exemple
     "symfony/proxy-manager-bridge": {
         "version": "v5.3.4"
     },
