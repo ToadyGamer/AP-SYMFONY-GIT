@@ -20,7 +20,7 @@ class FormConfig
     private $legacyErrorMessages;
     
     /**
-     * @default true
+     * @default false
      * @param ParamConfigurator|bool $value
      * @return $this
      */

@@ -17,7 +17,7 @@ class PropertyInfoConfig
     private $enabled;
     
     /**
-     * @default true
+     * @default false
      * @param ParamConfigurator|bool $value
      * @return $this
      */

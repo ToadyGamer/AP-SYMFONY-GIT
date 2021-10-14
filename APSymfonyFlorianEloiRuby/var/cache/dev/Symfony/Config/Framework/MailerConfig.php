@@ -24,7 +24,7 @@ class MailerConfig
     private $headers;
     
     /**
-     * @default true
+     * @default false
      * @param ParamConfigurator|bool $value
      * @return $this
      */
