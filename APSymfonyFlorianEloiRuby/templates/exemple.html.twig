@@ -1,0 +1,26 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}EXEMPLES{% endblock %}
+
+{% block body %}
+<style>
+    .example-wrapper { margin: 1em auto; max-width: 800px; width: 95%; font: 18px/1.5 sans-serif; }
+    .example-wrapper code { background: #F5F5F5; padding: 2px 6px; }
+</style>
+<div class="example-wrapper" style="text-align: justify;">
+    <center><h1><img src="Imgs/Projets.png" style="width:70px;"> <u>EXEMPLES DE MES PROJETS</u> <img src="Imgs/Projets.png" style="width:70px;"></h1></center>
+    <br>
+    <h3>Voici les nombreux projet que j'ai pu réaliser au cours de ma carrère.</h3>
+    <br>
+{% for uneData in Data %}
+<div class="card text-white bg-success mb-3" style="max-width: 500rem;">
+  <div class="card-header"><h2>{{ uneData.nomProjet }}</h2></div>
+  <div class="card-body">
+    <h5 class="card-title"><u>Emplacement</u> : {{ uneData.adresse }} - {{ uneData.cp }} - {{ uneData.ville }}</h5>
+    <h4><img src={{ uneData.imageExemple}} style="width:100%; margin-left:auto; margin-right:auto;"></h4>
+    <p class="card-text">{{ uneData.commentaire }}</p>
+  </div>
+</div>
+{% endfor %}
+</div>
+{% endblock %}
